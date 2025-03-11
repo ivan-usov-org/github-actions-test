@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+    runs-on: rhel9vm
     steps:
       - run: echo "😇 This is a good change 😇"
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
